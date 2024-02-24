@@ -21,13 +21,6 @@ typedef int (AMX_NATIVE_CALL *amx_Function_t)(AMX *amx, cell *params);
 		}
 #endif
 
-// plugin data
-#define PLUGIN_DATA_NETGAME        225
-#define PLUGIN_DATA_RAKSERVER      226
-#define PLUGIN_DATA_LOADFSCRIPT    227
-#define PLUGIN_DATA_CONSOLE        228
-#define PLUGIN_DATA_UNLOADFSCRIPT  229
-
 // rpc data
 enum RPCEnumeration {
 	RPC_DisplayGameText   = 73,
